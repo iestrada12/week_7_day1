@@ -5,7 +5,7 @@ import json
 response = requests.get("https://randomuser.me/api")
 
 # print(response.json())
-
+#wwwwwww
 
 title = response.json()['results'][0]['name']['first']
 print(title)
